@@ -33,7 +33,14 @@ total += values[i];
 	//   array contains the value specified by the second parameter.
 	//   It should otherwise return false.
 	public static boolean containsIntValue(int[] array, int value) {
+		boolean contains = false;
+	for (int i = 0; i < array.length; i++) {
+		if (array[i] == value) {
+			return true;
+		}
 	
+		
+	}
 		return false;
 	}
 	
@@ -41,7 +48,10 @@ total += values[i];
 	//   first instance that the specified value occurs in the array.
 	//   If the array does not contain the specified value, it should return -1.
 	public static int getIndex(int[] arr, int value) {
-		
+		int index = 0;
+		for (int i = 0; i < arr.length; i++) {
+			System.out.println(arr[i]);
+		}
 		return 0;
 	}
 }
